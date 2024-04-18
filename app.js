@@ -23,3 +23,31 @@ openMobile.addEventListener('click', function () {
 closeMobile.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
 });
+
+document.getElementById('wordButton').addEventListener('click', function () {
+    window.location.href = '';
+});
+
+document.getElementById('powerPointButton').addEventListener('click', function () {
+    window.location.href = '';
+});
+
+document.getElementById('excelButton').addEventListener('click', function () {
+    window.location.href = '';
+});
+
+document.getElementById('docsButton').addEventListener('click', function () {
+    window.location.href = 'index2.html';
+});
+
+document.getElementById('apresentacoesButton').addEventListener('click', function () {
+    window.location.href = '';
+});
+
+document.getElementById('planilhasButton').addEventListener('click', function () {
+    window.location.href = '';
+});
+
+document.getElementById('perguntasButton').addEventListener('click', function () {
+    window.location.href = '';
+});
