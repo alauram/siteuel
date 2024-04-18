@@ -35,7 +35,7 @@ closeMobile.addEventListener('click', function () {
 });
 
 document.getElementById('wordButton').addEventListener('click', function () {
-    window.location.href = 'https://docs.google.com/document/u/0/s';
+    window.location.href = '';
 });
 
 document.getElementById('powerPointButton').addEventListener('click', function () {
