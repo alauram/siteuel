@@ -9,13 +9,23 @@ const mobileMenu = document.querySelector('.mobile-menu')
 document.querySelector('.btn1').addEventListener('click', function () {
     this.classList.toggle('active');
     openMenu1.classList.toggle('active');
-    Arrow1.classList.toggle('active')
+    Arrow1.classList.toggle('active');
+
+    if (openMenu2.classList.contains('active')) {
+        openMenu2.classList.remove('active');
+        Arrow2.classList.remove('active');
+    }
 });
 
 document.querySelector('.btn2').addEventListener('click', function () {
     this.classList.toggle('active');
     openMenu2.classList.toggle('active');
-    Arrow2.classList.toggle('active')
+    Arrow2.classList.toggle('active');
+
+    if (openMenu1.classList.contains('active')) {
+        openMenu1.classList.remove('active');
+        Arrow1.classList.remove('active');
+    }
 });
 openMobile.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
@@ -25,7 +35,7 @@ closeMobile.addEventListener('click', function () {
 });
 
 document.getElementById('wordButton').addEventListener('click', function () {
-    window.location.href = '';
+    window.location.href = 'https://docs.google.com/document/u/0/s';
 });
 
 document.getElementById('powerPointButton').addEventListener('click', function () {
