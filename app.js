@@ -47,7 +47,7 @@ document.getElementById('excelButton').addEventListener('click', function () {
 });
 
 document.getElementById('docsButton').addEventListener('click', function () {
-    window.location.href = '/siteuel/documentos/index.html';
+    window.location.href = "https://alauram.github.io/siteuel/documentos/index.html";
 });
 
 document.getElementById('apresentacoesButton').addEventListener('click', function () {
