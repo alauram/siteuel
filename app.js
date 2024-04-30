@@ -47,7 +47,7 @@ document.getElementById('excelButton').addEventListener('click', function () {
 });
 
 document.getElementById('docsButton').addEventListener('click', function () {
-    window.location.href = '.\index2.html';
+    window.location.href = '../documentos/index2.html';
 });
 
 document.getElementById('apresentacoesButton').addEventListener('click', function () {
