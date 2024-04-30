@@ -43,10 +43,9 @@ body {
     padding: 2.5rem 3.125rem 0 0;
 }
 .logo {
-    padding: 2.375rem 3.125rem 0;
+    padding: 2.375rem 3.125rem 0
 }
 .options {
-    margin-top: 3.6%;
     display: flex;
     gap: 1.875rem;
     color: var(--Medium-Gray);
@@ -63,10 +62,10 @@ body {
     cursor: pointer;
     color: var(--Medium-Gray);
 }
-.features {
+.office {
     position: relative;
 }
-.company {
+.google {
     position: relative;
 }
 .arrow1 {
@@ -98,7 +97,6 @@ body {
     box-shadow: 5px 5px 33px -4px rgba(8,8,8,0.2);
     right: 0;
     top: 70%;
-    width: 11.25rem;
     visibility: hidden;
     padding: 0.625rem 0;
    
@@ -124,60 +122,21 @@ body {
     visibility: visible;
     animation: myAnim2 0.4s ease 0s 1 normal forwards;
 }
-.login button {
-    background-color: var(--Almost-White);
-    padding: 0.625rem 0.9375rem;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 1rem;
-    border: none;
-    color: var(--Medium-Gray);
-    cursor: pointer;
-}
-.register button {
-    background-color: var(--Almost-White);
-    padding: 0.625rem 0.9375rem;    
-    font-family: 'Epilogue', sans-serif;
-    font-size: 1rem;
-    border: 1px solid var(--Medium-Gray);
-    color: var(--Medium-Gray);
-    cursor: pointer;
-    border-radius: 0.625rem;
-}
-.register button:hover {
-    color: black;
-    border-color: black;
+
+.btn1:hover, .btn1:hover, .perguntas:hover {
     transform: translateY(-1px);
     transition: all 1s ease;
 }
-.login button:hover{
-    color: black;
-    transform: translateY(-1px);
-    transition: all 1s ease;
-}
-.btn1:hover, .btn1:hover, .carrers:hover, .about:hover {
-    transform: translateY(-1px);
-    transition: all 1s ease;
-}
-.carrers, .about {
+.perguntas {
     cursor: pointer;
 }
-.row {
-    display: flex;
-    gap: 0.9375rem;
-    align-items: center;
-    cursor: pointer;
-    padding: 0.625rem 0.3125rem 0.625rem 1.5625rem;    
-    font-weight: 700;
-}
-.row:hover, .list:hover {
-    background: hsla(0, 0%, 78%,.5);
-}
+
 .list {
     display: flex;
     gap: 0.9375rem;
     align-items: center;
     cursor: pointer;
-    padding: 0.625rem 1.25rem 0.625rem 1.5625rem;  
+    padding: 1rem 1.5rem 1rem 1.5rem;  
     font-size: 1.1rem; 
 }
 .top .right {
@@ -189,7 +148,7 @@ body {
 .bottom{
     display: flex;
     flex-direction: row;
-    padding: 6.25rem 7.5rem 1.875rem;
+    padding: 1rem 7.5rem 1.875rem;
 }
 .bottom .right {
     width: 40%;
@@ -197,7 +156,7 @@ body {
 .bottom .right img {
     display: inherit;
     min-width: 100%;
-    height: 37.5rem;
+    height: 35rem;
 }
 .bottom .left {
     display: flex;
@@ -222,11 +181,6 @@ body {
     flex-direction: column;
     gap: 2.5rem;
 }
-.left-bottom {
-    display: flex;
-    gap: 2.1875rem;
-    padding-top: 3.125rem;
-}
 .left-top button {
     background-color: var(--Almost-White);
     padding: 0.9375rem 1.25rem;    
@@ -243,6 +197,9 @@ body {
     background: transparent;
     transition: all 0.25s ease;
     border-width: 0.0938rem;
+}
+.list:hover {
+    background: hsla(0, 0%, 78%,.5);
 }
 @keyframes myAnim1 {
 	0% {
@@ -271,10 +228,10 @@ body {
     .container {
         position: relative;
     }
-    .features {
+    .office {
         position: inherit;
     }
-    .company {
+    .google {
         position: inherit;
     }
     .mobile-img {
@@ -327,6 +284,7 @@ body {
     }
     .bottom {
         padding: 0;
+        margin-bottom: 5rem;
     }
     .bottom .left {
         width: 100%;
@@ -340,6 +298,7 @@ body {
         font-size: 2rem;
         line-height: 2rem;
         padding-top: 3.75rem;
+        padding-left: 1.5rem;
     }
     .bottom .left p {
         text-align: center;
@@ -358,10 +317,6 @@ body {
         flex-direction: row;
         justify-content: space-between;
         padding: 1.25rem;
-    }
-    .row {
-        width: 100%;
-        padding: 0.625rem;
     }
     br {
         display: none;
@@ -414,4 +369,3 @@ body {
         background-color: white;
     }
 }
-
