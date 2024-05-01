@@ -33,7 +33,9 @@ openMobile.addEventListener('click', function () {
 closeMobile.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
 });
-
+document.getElementById('logo').addEventListener('click', function () {
+    window.location.href = "https://alauram.github.io/siteuel/";
+});
 document.getElementById('wordButton').addEventListener('click', function () {
     window.location.href = '';
 });
