@@ -4,7 +4,7 @@ const openMenu2 = document.querySelector('.menu2');
 const Arrow2 = document.querySelector('.arrow2');
 const openMobile = document.querySelector('.mobile-open');
 const closeMobile = document.querySelector('.mobile-close');
-const mobileMenu = document.querySelector('.mobile-menu')
+const mobileMenu = document.querySelector('.mobile-menu');
 
 document.querySelector('.btn1').addEventListener('click', function () {
     this.classList.toggle('active');
@@ -33,7 +33,14 @@ openMobile.addEventListener('click', function () {
 closeMobile.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
 });
+document.getElementById('logo').addEventListener('click', function () {
+    window.location.href = 'https://alauram.github.io/siteuel';
+});
 
+document.getElementById('abrir').addEventListener('click', function () {
+    this.classList.toggle('active');
+    document.querySelector('.arquivoMenu').classList.toggle('active');
+});
 document.getElementById('wordButton').addEventListener('click', function () {
     window.location.href = '';
 });
@@ -47,7 +54,7 @@ document.getElementById('excelButton').addEventListener('click', function () {
 });
 
 document.getElementById('docsButton').addEventListener('click', function () {
-    window.location.href = 'index2.html';
+    window.location.href = '/documentos/index.html';
 });
 
 document.getElementById('apresentacoesButton').addEventListener('click', function () {
