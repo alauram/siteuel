@@ -12,7 +12,7 @@
 <body>
     <div class="container active">
         <div class="top">
-            <div class="logo"><img src="https://alauram.github.io/siteuel/images/uel2.png" alt=""><button class="mobile-open"><img src="https://alauram.github.io/siteuel/images/icon-menu.svg" alt=""></button></div>
+            <div class="logo"><img src="https://alauram.github.io/siteuel/images/uel2.png" alt="" id="logo"><button class="mobile-open"><img src="https://alauram.github.io/siteuel/images/icon-menu.svg" alt=""></button></div>
             <div class="mobile-menu">
                 <button class="mobile-close"><img src="https://alauram.github.io/siteuel/images/icon-close-menu.svg" alt=""></button>
             <div class="left">
@@ -67,26 +67,116 @@
                 fermentum. Vivamus non aliquam est, ut porttitor tellus. Maecenas ornare viverra turpis id porta.</p>
                 <div class="box">
                 <div class="indice">
-                    <p>Índice</p><hr>
-                    <ul>
-                        <li><a href="#arquivo">Arquivo</a></li>
-                        <li><a href="#editar">Editar</a></li>
-                        <li><a href="#ver">Ver</a></li>
-                        <li><a href="#inserir">Inserir</a></li>
-                        <li><a href="#formatar">Formatar</a></li>
-                        <li><a href="#ferramentas">Ferramentas</a></li>
+                    <p class="titulo">Índice<p><hr>
+                    <p class="topicos"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1" id="abrir"><a href="#arquivo">Arquivo </a></p>
+                    <ul class = arquivoMenu>
+                        <li><a href="#novo">Novo</a></li>
+                        <li><a href="#abrir">Abrir</a></li>
+                        <li><a href="#copia">Fazer cópia</a></li>
+                        <li><a href="#compartilhar">Compartilhar</a></li>
+                        <li><a href="#email">E-mail</a></li>
+                        <li><a href="#download">Fazer download</a></li>
+                        <li><a href="#renomear">Renomear</a></li>
+                        <li><a href="#mover">Mover</a></li>
+                        <li><a href="#atalho">Adicionar atalho ao Google Drive</a></li>
+                        <li><a href="#lixeira">Mover para a lixeira</a></li>
+                        <li><a href="#historico">Histórico de versões</a></li>
+                        <li><a href="#detalhes">Detalhes</a></li>
+                        <li><a href="#idioma">Idioma</a></li>
+                        <li><a href="#configuracao">Configuração da página</a></li>
+                        <li><a href="#imprimir">Imprimir</a></li>
                     </ul>
+                    <p class="topicos"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1"><a href="#editar">Editar </a></p>
+                    <p class="topicos"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1"><a href="#ver">Ver </a></p>
+                    <p class="topicos"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1"><a href="#inserir">Inserir </a></p>
+                    <p class="topicos"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1"><a href="#formatar">Formatar </a></p>
+                    <p class="topicos active"><img src="https://alauram.github.io/siteuel/images/icon-arrow-down.svg" alt="" class="arrow1"><a href="#ferramentas">Ferramentas </a></p>
                 </div>
             </div>
             <div class="infos">
             <div class="divisao">
                 <h2 id="arquivo">Arquivo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices tempus sapien, 
-                    sit amet feugiat lorem tincidunt in. Vivamus sed dui faucibus, scelerisque augue sit amet, 
-                    volutpat sem. Nulla auctor nisl sed pulvinar vehicula. Maecenas semper lacus eu tristique ullamcorper. 
-                    Etiam eu mi lacus. Praesent aliquam urna a massa interdum fermentum. Vivamus non aliquam est, ut porttitor 
-                    tellus. Maecenas ornare viverra turpis id porta.
-                </p>
+                <p>A aba "Arquivo" no Google Docs concentra-se em operações essenciais para a gestão de documentos. Ela oferece opções para criar, abrir, salvar, imprimir e compartilhar documentos. As funcionalidades incluem operações básicas como criar um novo documento, abrir documentos existentes, fazer download, e enviar documentos por e-mail ou gerar um link compartilhável, configurações do documento, que permite ajustar detalhes como tamanho do papel, orientação e margens, e opções avançadas para imprimir, fazer upload e enviar documentos por e-mail. Essas opções proporcionam uma experiência completa de gerenciamento de documentos no Google Docs.</p>
+
+<h3 id="novo">Novo</h3>
+<p>Exibe duas opções:</p>
+<ul>
+  <li><strong>Documento:</strong> um novo arquivo em branco é criado para começar a redigir imediatamente. Essa opção é escolhida quando um novo documento precisa ser iniciado a partir do zero.</li>
+  <li><strong>Da galeria de modelos:</strong> acesso a uma variedade de modelos predefinidos para diferentes tipos de documentos é concedido, como currículos, cartas, relatórios, entre outros. Isso facilita a formatação inicial, fornecendo estruturas prontas para diversos fins.</li>
+</ul>
+
+<h3 id="abrir">Abrir</h3>
+<p>Permite abrir arquivos por meio de seis opções:</p>
+<ul>
+  <li><strong>Recentes:</strong> são exibidos os documentos que foram acessados e editados recentemente, proporcionando uma maneira rápida de retomar o trabalho em andamento.</li>
+  <li><strong>Meu drive:</strong> acessa todos os documentos armazenados no Google Drive do usuário, organizados em pastas, facilitando a localização e abertura de arquivos específicos.</li>
+  <li><strong>Compartilhados comigo:</strong> são exibidos os documentos que foram compartilhados por outras pessoas e que há permissão para acessar.</li>
+  <li><strong>Com estrela:</strong> permite visualizar documentos marcados com uma estrela pelo usuário, para destacar e acessar rapidamente documentos específicos.</li>
+  <li><strong>Computadores:</strong> é possível acessar documentos armazenados no Google Drive File Stream, que é uma aplicação que permite acessar e sincronizar arquivos do Google Drive diretamente do computador.</li>
+  <li><strong>Upload:</strong> é possível adicionar documentos armazenados localmente no dispositivo ao Google Drive, permitindo a inclusão de novos arquivos para armazenamento e edição.</li>
+</ul>
+
+<h3 id="copia">Fazer cópia</h3>
+<p>Uma duplicata do documento existente é criada. Essa cópia é automaticamente salva no Google Drive com "Cópia de", seguido do nome do arquivo copiado, permitindo que o documento original seja preservado enquanto alterações são feitas na cópia.</p>
+
+<h3 id="compartilhar">Compartilhar</h3>
+<p>Existem duas opções:</p>
+<ul>
+  <li><strong>Compartilhar com outras pessoas:</strong> é possível compartilhar o documento com outros usuários, diferentes níveis de permissão, como visualização, edição ou comentário, podem ser atribuídos, e convites por e-mail podem ser enviados para facilitar o acesso.</li>
+  <li><strong>Publicar na Web:</strong> o conteúdo do documento se torna acessível publicamente na internet. Isso pode ser realizado gerando um link para o documento ou incorporando-o em um site. Além disso, é possível configurar opções de publicação, como a restrição de acesso a um domínio específico e a capacidade de republicar automaticamente sempre que houver alterações no documento.</li>
+</ul>
+
+<h3 id="email">E-mail</h3>
+<p>Existem três funcionalidades relacionadas ao e-mail:</p>
+<ul>
+  <li><strong>Enviar esse arquivo por e-mail:</strong> essa opção possibilita o envio do documento como anexo por e-mail. Uma janela de composição de e-mail é aberta, permitindo adicionar destinatários, assunto e mensagem antes de enviar o arquivo.</li>
+  <li><strong>Enviar esse arquivo aos colaboradores:</strong> esta funcionalidade permite o compartilhamento do documento. Ao selecionar essa opção, você pode enviar convites para colaboradores, proporcionando acesso ao documento. A permissão específica pode ser gerenciada posteriormente, mas a inclusão direta de colaboradores pode ser realizada após o compartilhamento inicial do arquivo.</li>
+  <li><strong>Rascunho de e-mail:</strong> um rascunho de e-mail é criado no arquivo, incluindo campos para destinatário(s), assunto, Cc, Cco e mensagem. Ao clicar no ícone do Gmail, o e-mail do rascunho pode ser enviado ao(s) destinatário(s) sem sair do documento.</li>
+</ul>
+
+<h3 id="download">Fazer download</h3>
+<p>As opções disponíveis permitem baixar o documento em formatos diversos:</p>
+<ul>
+  <li>Microsoft Word (.docx)</li>
+  <li>Formato OpenDocument (.odt)</li>
+  <li>Formato Rich Text (.rtf)</li>
+  <li>Documento PDF (.pdf)</li>
+  <li>Texto sem formatação (.txt)</li>
+  <li>Página da Web (.html, compactado)</li>
+  <li>Publicação EPUB (.epub)</li>
+</ul>
+
+<h3 id="renomear">Renomear</h3>
+<p>Ao escolher "Renomear", é possível modificar o nome do documento que está sendo editado.</p>
+
+<h3 id="mover">Mover</h3>
+<p>Exibe o local atual do documento, oferece sugestões de novos locais, destaca locais marcados com estrela e lista todos os locais disponíveis no Google Drive.</p>
+
+<h3 id="atalho">Adicionar atalho ao Google Drive</h3>
+<p>Ao selecionar "Adicionar Atalho ao Google Drive", são apresentadas as mesmas opções disponíveis em "Mover". Essa ação cria um atalho para o documento no local escolhido, permitindo fácil acesso a partir de diferentes pastas sem duplicar o arquivo.</p>
+
+<h3 id="lixeira">Mover para a lixeira</h3>
+<p>Exclui o documento, mas não permanentemente. Exibe a opção de recuperar o arquivo da lixeira ou retornar à página principal do Google Docs. O arquivo também pode ser recuperado posteriormente.</p>
+
+<h3 id="historico">Histórico de Versões</h3>
+<p>Existem duas opções para administrar as versões do documento:</p>
+<ul>
+  <li><strong>Nomear versão atual:</strong> é possível atribuir um nome específico à versão atual do documento.</li>
+  <li><strong>Ver histórico de versões:</strong> é possível revisar todas as alterações feitas no documento ao longo do tempo. Essa funcionalidade oferece a capacidade de comparar versões e recuperar uma versão anterior, se necessário.</li>
+</ul>
+
+<h3 id="detalhes">Detalhes</h3>
+<p>Ao acessar a opção "Detalhes", são apresentadas informações sobre o documento. Esses detalhes incluem o local atual de armazenamento no Google Drive, o nome do proprietário principal, a data e hora da última modificação, e a data e hora de criação original do documento.</p>
+
+<h3 id="idioma">Idioma</h3>
+<p>Na seção "Idioma", é possível ajustar as configurações relacionadas ao idioma do documento, garantindo consistência linguística ao conteúdo.</p>
+
+<h3 id="configuracao">Configuração da página</h3>
+<p>É possível formatar o arquivo como um todo ou apenas uma parte selecionada. Pode-se alterar a orientação, tamanho do papel, cor da página, e margens. Também é possível selecionar o formato sem páginas, que não possui quebra de páginas, permitindo a alteração da cor do plano de fundo. Além disso, é possível definir as configurações selecionadas como padrão para documentos futuros.</p>
+
+<h3 id="imprimir">Imprimir</h3>
+<p>A opção "Imprimir" oferece funcionalidades relacionadas à impressão do documento. Configurações como o número de cópias, páginas a serem impressas e configurações específicas de impressão podem ser ajustadas. Essa funcionalidade é útil para preparar o documento para impressão física ou salvá-lo como PDF.</p>
+
             </div>
             <div class="divisao">
                 <h2 id="editar">Editar</h2>
