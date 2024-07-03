@@ -271,6 +271,7 @@ body {
         border-radius: 0rem;
         box-shadow: none;
         width: 100%;
+        background-color: transparent;
     }
     .menu1.active {
         display: inherit;
@@ -281,6 +282,7 @@ body {
         border-radius: 0rem;
         box-shadow: none;
         width: 100%;
+        background-color: transparent;
     }
     .bottom {
         padding: 0;
