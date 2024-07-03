@@ -5,6 +5,7 @@ const Arrow2 = document.querySelector('.arrow2');
 const openMobile = document.querySelector('.mobile-open');
 const closeMobile = document.querySelector('.mobile-close');
 const mobileMenu = document.querySelector('.mobile-menu');
+const arrows = document.querySelectorAll('.arrow');
 
 document.querySelector('.btn1').addEventListener('click', function () {
     this.classList.toggle('active');
@@ -37,10 +38,13 @@ document.getElementById('logo').addEventListener('click', function () {
     window.location.href = 'https://alauram.github.io/siteuel';
 });
 
-document.getElementById('abrir').addEventListener('click', function () {
-    this.classList.toggle('active');
-    document.querySelector('.arquivoMenu').classList.toggle('active');
-});
+arrows.forEach(function(arrow, index) {
+      const menu = document.getElementById(`topicos${index + 1}`);
+      arrow.addEventListener('click', function() {
+        this.classList.toggle('active');
+        menu.classList.toggle('active');
+      });
+    });
 document.getElementById('wordButton').addEventListener('click', function () {
     window.location.href = '';
 });
